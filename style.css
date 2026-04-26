@@ -1,0 +1,103 @@
+body {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.process {
+  gap: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.contents {
+    background-color: rgb(191, 235, 241);
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 20px auto;
+    width: 70%;
+    min-width: 800px;
+}
+
+.menu {
+  text-align: center;
+  width: 200px;
+  margin: 20px auto;  
+  background-color: rgb(151, 245, 237);
+  border: 10px solid rgb(7, 70, 101);
+  border-radius: 12px;
+}
+
+
+ul {
+  list-style-type: circle;
+  text-align: left;
+ 
+}
+
+ol {
+  list-style-type: circle;
+  border-radius: 10px;
+  text-align: left;
+  background-color: bisque;)
+}
+
+p {
+  border-radius: 10px;
+  padding: 20px;
+  font-family: ' robota', sans-serif;
+  font-size: 1em;
+  text-align: left;
+  background-color: bisque;
+  color: rgb(12, 93, 93);
+}
+
+
+h1 {
+    border-radius: 10px;
+    text-align: center;
+    background-color: bisque;
+    color: rgb(59, 236, 236);
+    font-size: 2em;
+    font-family: ' robota', sans-serif;
+}
+
+h2 {
+    border-radius: 10px;
+    text-align: center;
+    background-color: bisque;
+    color: rgb(109, 211, 211);
+    font-size: 2em;
+    font-family: ' robota', sans-serif;
+}
+
+.ingred {
+    font-family: ' robota', sans-serif;
+    color:rgb(12, 93, 93);
+    background-color:bisque;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.signoff {
+    text-align: center;
+    font-family: ' robota', sans-serif;
+    color:rgb(12, 93, 93);
+    background-color:rgb(249, 247, 246);
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px auto;
+}
+
+.steps {
+    font-family: ' robota', sans-serif;
+    color:rgb(12, 93, 93);
+    background-color:bisque;
+    border-radius: 10px;
+    padding: 10px;
+}
+
